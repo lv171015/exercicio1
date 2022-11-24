@@ -37,6 +37,15 @@ console.log("seu imc é normal")
 }else{
    
     console.log("seu imc é de obesidade")
-    
+
+}
+
+var anonasc= 2022 - idade
+var idadeAtual = 0
+
+for (let anoAtual = anonasc; anoAtual <= 2022 ; anoAtual++) {
+   
+    console.log(anoAtual + " - " + idadeAtual + " anos de idade")
+    idadeAtual++
 }
 
